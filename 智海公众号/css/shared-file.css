@@ -1,0 +1,52 @@
+html,body{
+	height: 100%;
+	background-color: #edeff1;
+}
+
+.container {
+	padding: 0.35rem 0.4rem;
+}
+
+.header {
+	padding: 0.2rem 0;
+	background-color: #fff;
+	text-align: center;
+}
+
+.header img {
+	height: 0.725rem;
+	width: 0.725rem;
+}
+
+.item {
+	background-color: #fff;
+	margin-top: 0.275rem;
+	line-height: 1.125rem;
+	height: 1.125rem;
+	position: relative;
+}
+
+.item p {
+	float: left;
+	font-size: 0.4rem;
+	margin-left: 0.4rem;
+	color: #333333;
+}
+
+.item img:nth-child(2) {
+	width: 0.325rem;
+	height: 0.45rem;
+	position: absolute;
+	top: 50%;
+	right: 1.2rem;
+	margin-top: -0.225rem;
+}
+
+.item img:nth-child(3) {
+	width: 0.6rem;
+	height: 0.6rem;
+	position: absolute;
+	top: 50%;
+	right: 0.325rem;
+	margin-top: -0.3rem;
+}

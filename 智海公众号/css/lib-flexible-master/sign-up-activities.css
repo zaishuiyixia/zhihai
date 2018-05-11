@@ -1,0 +1,91 @@
+body {
+	background-color: #f6f6f6;
+	height: 886px;
+	overflow: hidden;
+}
+
+.container {
+	background-color: #fff;
+    border-radius: 0.125rem;
+    margin: 0.225rem 0.375rem 0.35rem;
+    padding: 0.35rem 0 0.4rem 0.375rem;
+    position: relative;
+}
+
+.container div {
+	padding-right: 0.375rem;
+	padding-left: 3.2rem;
+    /*padding-top: 0.1rem;*/
+    padding-bottom: 0.1rem;
+    margin-bottom: 0.3rem;
+}
+
+.container .line {
+	border-bottom: 1px solid #eeeeee;
+	margin-bottom: 0.35rem;
+}
+
+.container div h3 {
+	font-size: 0.325rem;
+	line-height: 0.6rem;
+    color: #333333;
+    margin-bottom: 0.225rem;
+}
+
+.container>p {
+	text-align: left;
+	font-size: 0.25rem;
+    color: #858585;
+}
+
+.container img {
+	float: left;
+	width: 2.525rem;
+	height: 2.0rem;	
+}
+
+.container button { 	
+	float: right;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	margin-right: 0.125rem;
+	padding: 0.2rem 0.4rem;
+	background-color: #e60012;
+	color: #fff;
+	font-size: 0.35rem;
+	line-height: 0.35rem;
+}
+
+.container .btn {
+	width: 2.075rem;
+}
+
+.container .btn span {
+	display: inline-block;
+	margin-right: 0.275rem;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+	.container .line {
+	    border-width: 1px;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 3) {
+	.container .line {
+	    border-width: 1px;
+	}
+}
+
+@media only screen and (width: 411px) {
+    body {
+    	height: 900px;
+    }
+}
+
+@media only screen and (width: 414px) {
+    body {
+    	height: 908px;
+    }
+}

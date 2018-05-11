@@ -1,0 +1,123 @@
+.header {
+	padding: 0.35rem 0 0.35rem;
+	margin-left: 0.4rem;
+	vertical-align: middle;
+	border-bottom: 0.025rem solid #bfbfbf;
+}
+
+.header img {
+	float: left;
+	display: inline-block;
+	width: 0.6rem;
+	height: 0.6rem;
+}
+
+.header p {
+	font-size: 0.375rem;
+	line-height: 0.6rem;
+	color: #333333;
+	margin-left: 0.975rem;
+}
+
+.week {
+	margin-left: 0.4rem;
+	padding: 0.5rem 0 0.45rem;
+}
+
+.line {
+	border-bottom: 4px solid #f6f6f6;
+}
+
+.week span {
+	display: inline-block;
+	margin-top: 0.2rem;
+	float: left;
+	font-size: 0.375rem;
+	color: #333333;
+}
+
+.week ul {
+	margin-left: 1.475rem;
+}
+
+.week ul li {
+	float: left;
+	display: inline-block;
+	padding: 0.175rem 0.225rem;
+	font-size: 0.375rem;
+	border: 0.025rem solid #434343;
+	margin-right: 0.325rem;
+	margin-bottom: 0.475rem;
+	border-radius: 0.15rem;
+}
+
+.week ul li:nth-child(4) {
+	margin-right: 0;
+}
+
+.week ul li.distance {
+	margin-bottom: 0;
+}
+
+.week ul li.active,.activity-time ul li.active {
+	border-color: #e60012;
+	color: #e60012;
+}
+
+.activity-time {
+	font-size: 0.375rem;
+	margin-left: 0.4rem;
+	padding: 0.65rem 0;
+	color: #333333;
+}
+
+.activity-time span {
+	float: left;
+	display: inline-block;
+	margin-top: 0.2rem;
+}
+
+.activity-time ul {
+	margin-left: 2.25rem;
+}
+
+.activity-time li {
+	float: left;
+	display: inline-block;
+	padding: 0.175rem 0.225rem;
+	font-size: 0.375rem;
+	border: 0.025rem solid #434343;
+	margin-right: 0.325rem;
+	margin-bottom: 0.475rem;
+	border-radius: 0.15rem;
+}
+
+.submit-btn {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0.425rem 0;
+    background-color: #e60012;
+    text-align: center;
+}
+
+.btn-container button {
+    display: block;
+    font-size: 0.375rem;
+    color: #ffffff;
+    border: none;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+	.week {
+	    border-width: 4px;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 3) {
+	.week {
+	    border-width: 4px;
+	}
+}

@@ -1,0 +1,120 @@
+.header {
+	overflow: hidden;
+}
+
+.header p {
+	display: inline-block;
+	width: 100%;
+	padding: 0.35rem 0.375rem 0.3rem;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+	font-size: 0.375rem;
+	font-weight: bold;
+	background-color: #4a5157;
+	color: #fff;
+}
+
+.main-container {
+	margin-bottom: 1.35rem;
+}
+
+.main-title {
+	padding: 0.35rem 0 0.25rem 0.375rem;
+	background-color: #edeff1;
+}
+
+.main-title span {
+	font-size: 0.375rem;
+	font-weight: bold;
+	color: #333333;
+}
+
+.main-title img {
+	width: 0.45rem;
+	height: 0.4rem;
+	float: right;
+	margin-right: 0.675rem;
+}
+
+.content {
+	padding: 0.575rem 0.75rem 0.45rem  0.45rem;
+	border-bottom: 0.15rem solid #f6f6f6;
+}
+
+.content p {
+	margin-bottom: 0.2rem;
+	font-size: 0.375rem;
+	color: #414141;
+}
+
+.content p:last-child {
+	margin-bottom: 0;
+}
+
+.content p:nth-child(3) span {
+	float: right;
+}
+
+.target {
+	height: 1.55rem;
+	padding: 0.325rem 0 0 0.4rem;
+	font-size: 0.375rem;
+	color: #414141;
+}
+
+.file {
+	position: relative;
+	padding: 0.3rem 0;
+	background-color: #edeff1;
+}
+
+.file p {
+	float: right;
+	display: inline-block;
+	font-size: 0.375rem;
+	color: #333333;
+	font-weight: bold;
+	margin-right: 1.625rem;
+}
+
+.file img {	
+	position: absolute;
+	top: 50%;
+	margin-top: -0.25rem;
+	right: 0.775rem;
+	width: 0.55rem;
+	height: 0.5rem;
+}
+
+.footer {
+	padding: 0 0.675rem;
+	font-size: 0;
+}
+
+.footer a {
+	display: inline-block;
+	width: 2.6rem;
+	padding: 0.25rem 0 0.225rem;
+	border-radius: 0.15rem;
+	margin-right: 0.24rem;
+	font-size: 0.35rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+.footer a:first-child {
+	background-color: #62c4ef;
+	color: #fff;
+}
+
+.footer a:nth-child(2) {
+	border: 0.025rem solid #6e7b83;
+	color: #666666;
+}
+
+.footer a:last-child {
+	width: 2.8rem;
+	margin-right: 0;
+	background-color: #6e7b83;
+	color: #fff;
+}

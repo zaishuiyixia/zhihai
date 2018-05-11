@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+    background-color: #f6f6f6;
+}
+
+body {
+    height: 100%;
+    padding-top: 0.625rem;
+}
+
+.list {
+    margin: 0 0.4rem;
+    background-color: #fff;
+    padding: 0.55rem 0.45rem;
+}
+
+.list p {
+    font-size: 0.375rem;
+    color: #414141;
+    margin-bottom: 0.9rem;
+}
+
+.list>p:first-child span {
+    font-size: 0.475rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 0.625rem;
+}
+
+.list div p {
+    margin-bottom: 0;
+}
+
+.list div {
+    position: relative;     
+}
+
+.list div p span {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -0.425rem;
+}
+
+.list div p input {
+    border: none;
+    border-bottom: 1px solid;
+    padding: 0 0.375rem 0.45rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.list p:nth-child(4) {
+    margin-top: 0.25rem;
+    margin-bottom: 0.65rem;
+    font-size: 0.35rem;
+    color: #adadad;
+}
+
+.list p:nth-child(4) a {
+    color: #11a6ea;
+    text-decoration: none;
+    color: #22adec;
+}
+
+
+
+.list button {
+    font-size: 0.375rem;
+    padding: 0.3rem 3.72rem;
+    border-radius: 0.15rem;
+    color: #fff;
+    background-color: #54575c;
+    border: none;
+    letter-spacing: 0.05rem;
+}

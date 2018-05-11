@@ -1,0 +1,379 @@
+.swiper-container {
+  position: relative;
+}
+
+.swiper-container,.swiper-container img {
+  width: 100%;
+  height: 3.825rem;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets {
+  bottom: 0.07rem;
+}
+
+.swiper-pagination-bullet {
+  width: 0.15rem;
+  height: 0.15rem;
+  background: #eef2f5;
+  opacity: 1;
+  border: 0.025rem solid #eef2f5;
+  margin-right: 0.1rem;
+}
+
+.swiper-pagination-bullet-active {
+  background: transparent;
+}
+
+.swiper-container>a img {
+  width: 0.525rem;
+  height: 0.5rem;
+  position: absolute;
+  top: 0.35rem;
+  right: 0.675rem;
+  z-index: 4;
+}
+
+.field,.industry,.partner,.city,.consultation,.data {
+  padding: 0.3rem 0;
+  background-color: #c5ccd2;
+  color: #333333;
+  font-size: 0.35rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.field-container {
+  padding: 0.25rem 0.65rem 0;
+}
+
+.field-container li {
+  float: left;
+  margin-bottom: 0.25rem;
+}
+
+.field-container li a {
+  width: 1.25rem;
+  height: 1.25rem;
+  text-decoration: none;
+  line-height: 0.5rem;
+  padding-top: 0.1rem;
+  margin-right: 1.22rem;
+  text-align: center;
+  display: inline-block;
+  border: 0.025rem solid #bfbfbf;
+  border-radius: 0.375rem;
+  color: #414141;
+  font-size: 0.35rem;
+  box-sizing: border-box;
+}
+
+.field-container li:nth-child(8) a {
+  padding-top: 0;
+  line-height: 1.25rem;
+}
+
+.field-container li:nth-child(4) a,.field-container li:nth-child(8) a{
+  margin-right: 0;
+}
+
+/*.carousel */
+
+.carousel1 {
+  height: 3.3rem;
+}
+
+.industry-list {
+  padding: 0.25rem 0.65rem 0;
+}
+
+.industry-list li {
+  float: left;
+  margin-bottom: 0.25rem;
+}
+
+.industry-list li a {
+  width: 1.25rem;
+  height: 1.25rem;
+  text-decoration: none;  
+  line-height: 0.45rem;
+  padding-top: 0.1rem;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 1.22rem;
+  text-align: center;
+  display: inline-block;
+  border: 0.025rem solid #bfbfbf;
+  border-radius: 50%;
+  color: #414141;
+  font-size: 0.35rem;
+  box-sizing: border-box;
+}
+
+.industry-list li:nth-child(8) a {
+  padding: 0;
+  line-height: 1.25rem;
+}
+
+.industry-list li:nth-child(4) a,.industry-list li:nth-child(8) a {
+  margin-right: 0;
+}
+
+.carousel2{
+  width: 100%;
+  height: 8.84rem;
+}
+
+.carousel2 .swiper-slide ul>li {
+  float: left;
+}
+
+.carousel2 ul img {
+  width: 2.9rem;
+  height: 2.9rem;
+}
+
+.carousel2 .swiper-slide ul {
+  width: 100%;
+  height: 8.84rem;
+  padding: 0.25rem 0.372rem 0.125rem;
+  box-sizing: border-box;
+}
+
+.carousel2 .swiper-slide ul li {
+  margin-right: 0.275rem;
+  float: left;
+  font-size: 0.35rem;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.carousel2 .swiper-slide ul li.margin {
+  margin-right: 0;
+}
+
+.carousel2 .swiper-slide ul li p {
+    margin-bottom: 0.25rem;
+}
+
+.partner {
+  position: relative;
+}
+
+.partner p {
+  display: inline-block;
+}
+
+.partner a {
+  text-decoration: none;
+  display: inline-block;
+  width: 2.15rem;
+  height: 0.574rem;
+  line-height: 0.574rem;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.287rem;
+  right: 0.5rem;
+  border-radius: 0.287rem;
+  color: #f32323;
+  background-color: #e7ebee;
+  font-size: 0.35rem;
+  font-weight: normal;
+  border: 0.025rem solid #f32323;
+  box-sizing: border-box;
+}
+
+.city-container {
+  padding: 0.5rem 0.75rem 0.625rem;
+}
+
+.city-container ul li a {
+  color: #414141;
+  text-decoration: none;
+}
+
+.city-container ul li {
+  width: 1.2rem;
+  float: left;
+  font-size: 0.35rem;
+  margin-bottom: 0.6rem;
+  margin-right: 0.5rem;
+}
+
+.city-container ul:nth-child(2) li {
+  margin-bottom: 0;
+}
+
+.consultation {
+  margin-bottom: 0.325rem;
+}
+
+.demand-list li {
+  position: relative;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  padding-left: 0.75rem;
+  background-color: #e7ebee;
+  margin-bottom: 0.175rem;
+  font-size: 0.35rem;
+  color: #414141;
+}
+
+.demand-list li img {
+  position: absolute;
+  top: 50%;
+  right: 0.875rem;
+  margin-top: -0.225rem;
+  width: 0.275rem;
+  height: 0.45rem;
+}
+
+.demand-list li span {
+  position: absolute;
+  top: 50%;
+  right: 1.925rem;
+  margin-top: -0.29rem;
+  display: inline-block;
+  width: 1.125rem;
+  height: 0.572rem;
+  line-height: 0.572rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.demand-list li:last-child {
+  padding-left: 0;
+  margin-bottom: 0.325rem;
+}
+
+.demand-list li:last-child p {
+  text-align: center;
+}
+
+.data {
+  margin-bottom: 0.325rem;
+}
+
+.data-list li {
+  position: relative;
+  height: 0.825rem;
+  line-height: 0.825rem;
+  padding-left: 0.75rem;
+  background-color: #e7ebee;
+  margin-bottom: 0.175rem;
+  font-size: 0.35rem;
+  color: #414141;
+}
+
+.data-list li a {
+  text-decoration: none;
+}
+
+.data-list li span {
+  display: inline-block;
+  width: 0.624rem;
+  height: 0.624rem;
+  line-height: 0.642rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0.75rem;
+  margin-top: -0.312rem;
+  color: #fff;
+  font-size: 0.35rem;
+  text-align: center;
+}
+
+.data-list li p {
+  padding-left: 1.3rem;
+  font-size: 0.35rem;
+  color: #414141; 
+}
+
+.data-list li span.blue {
+  background-color: #4393d0;
+}
+
+.data-list li span.green {
+  background-color: #39a1aa;
+}
+
+.data-list li img {
+  position: absolute;
+  top: 50%;
+  right: 0.6rem;
+  margin-top: -0.225rem;
+  width: 0.372rem;
+  height: 0.475rem;
+}
+
+.data-list li:last-child {
+  padding-left: 0;
+  margin-bottom: 0.425rem;
+}
+
+.data-list li:last-child p {
+  text-align: center;
+}
+
+.feedback {
+  margin: 0 0.4rem;
+}
+
+.feedback a {
+  text-decoration: none;
+}
+
+.feedback-btn {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 0.275rem 0;
+  text-align: center;
+  font-size: 0.35rem;
+  color: #333333;
+  font-weight: bold;
+  border: 0.025rem solid #333;
+  border-radius: 0.125rem;
+}
+
+.feedback-btn img {
+  width: 0.574rem;
+  height: 0.574rem;
+  position: absolute;
+  left: 2.8rem;
+  top: 50%;
+  margin-top: -0.287rem;
+}
+
+.footer {
+  margin: 0.525rem 0;
+}
+
+.footer li {
+  float: left;
+  width: 19.5%;
+  margin-right: 0.062rem;
+}
+
+.footer li:last-child {
+  margin-right: 0;
+  float: right;
+}
+
+.footer li a {
+  display: inline-block;
+  width: 100%;
+  padding: 0.225rem 0;
+  font-size: 0.325rem;
+  color: #fff;
+  background-color: #4393d0;
+  border-radius: 0.125rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media only screen and (min-height: 732px) and (max-height: 738px) {
+  .carousel2 .swiper-slide ul {
+    padding: 0.25rem 0.37rem 0.125rem;
+  }
+}

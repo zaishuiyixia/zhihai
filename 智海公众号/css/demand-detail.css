@@ -1,0 +1,228 @@
+.header {
+	overflow: hidden;
+}
+
+.top {
+	height: 0.25rem;
+	background-color: #6e7b83;
+}
+
+.header p {
+	display: inline-block;
+	width: 100%;
+	padding: 0.35rem 0.375rem 0.3rem;
+	margin-bottom: 0.25rem;
+	font-size: 0.375rem;
+	background-color: #dce0e3;
+	color: #4a4a4a;
+	text-align: center;
+}
+
+.data {
+	padding: 0.5rem 0.375rem;
+	padding-right: 0;
+	font-size: 0.375rem;
+	color: #333333;
+	font-weight: bold;
+}
+
+.data ul {
+	float: left;
+}
+
+.data ul:nth-child(2) {
+	float: right;
+	margin-right: 0.875rem;
+}
+
+.data ul span {
+	color: #333333;
+	font-weight: normal;
+}
+
+.data ul span.active {
+	color: #33b3ed;
+	border-bottom: 0.025rem solid #33b3ed;
+	font-weight: normal;
+}
+
+.data ul li {
+	margin-bottom: 0.35rem;
+}
+
+.data ul li:last-child {
+	font-family: Arial;
+}
+
+.target p {
+	display: inline-block;
+	width: 100%;
+	padding: 0.35rem 0.375rem 0.3rem;
+	padding-right: 0;
+	margin-bottom: 0.25rem;
+	font-size: 0.375rem;
+	background-color: #dce0e3;
+	color: #4a4a4a;
+	box-sizing: border-box;
+}
+
+.target p span {
+	float: right;
+	margin-right: 0.625rem;
+}
+
+.description {
+	padding: 0.225rem 0.525rem 0.4rem;
+	font-size: 0.375rem;
+	color: #333333;
+}
+
+.description p {
+	line-height: 0.675rem;
+}
+
+.description p:nth-child(2) {
+	margin-left: 0.6rem;
+}
+
+.description span {
+	float: right;
+	position: relative;
+	display: inline-block;
+	line-height: 0.625rem;
+	height: 0.625rem;
+	padding-left: 0.4rem;
+	margin-top: 0.25rem;
+	font-size: 0.35rem;
+}
+
+.description input {
+	position: absolute;
+	left: 0;
+	top: 0.16rem;
+}
+
+.file {
+	padding: 0.225rem 0;
+	background-color: #edeff1;
+}
+
+.file img {
+	float: right;
+	width: 0.55rem;
+	height: 0.55rem;
+	margin-right: 0.3rem;
+	margin-right: 0.55rem;
+}
+
+.consultant {
+	padding: 0.475rem 0.4rem 0.375rem;
+}
+
+.consultant p {
+	margin-bottom: 0.325rem;
+	font-size: 0.375rem;
+	font-weight: bold;
+	color: #333333;
+}
+
+.consultant p span {
+	border-bottom: 0.025rem solid #44b9ef;
+	color: #44b9ef;
+	margin-right: 0.5rem;
+}
+
+.consultant p span:first-child {
+	margin-left: 0.25rem;
+}
+
+.consultant p:nth-child(2) span {
+	margin-right: 0;
+}
+
+.consultant p:nth-child(2) span:nth-child(2) {
+	font-weight: normal;
+	color: #333333;
+	border: none;
+	margin-left: 0.2rem;
+}
+
+.consultant>span input {
+	position: absolute;
+	left: 0;
+	top: 0.16rem;
+}
+
+.consultant>span {
+	float: right;
+	position: relative;
+	display: inline-block;
+	line-height: 0.625rem;
+	height: 0.625rem;
+	padding-left: 0.4rem;
+	margin-top: 0.25rem;
+	font-size: 0.35rem;
+}
+
+.payment {
+	padding: 0.325rem;
+	text-align: center;
+	font-size: 0.375rem;
+	font-weight: bold;
+	color: #333333;
+	background-color: #edeff1;
+}
+
+.footer {
+	padding: 0 0.7rem;
+	padding-top: 0.625rem;
+	font-size: 0;
+}
+
+.footer a {
+	display: inline-block;
+	padding: 0.3rem 0;
+	width: 4rem;
+	background-color: #35383f;
+	color: #fff;
+	font-size: 0.375rem;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 0.15rem;
+	text-decoration: none;
+}
+
+.footer a:nth-child(2) {
+	margin-left: 0.6rem;
+	background-color: #626262;
+}
+
+@media only screen and (min-height: 820px) and (max-height: 824px) {
+	.description input {
+    top: 0.19rem;
+	}
+
+	.consultant>span input {
+    top: 0.19rem;
+	}
+}
+
+@media only screen and (min-height: 720px) and (max-height: 734px) {
+	.description input {
+    top: 0.19rem;
+	}
+
+	.consultant>span input {
+    top: 0.19rem;
+	}
+}
+
+@media only screen and (min-height: 735px) and (max-height: 738px) {
+	.description input {
+    top: 0.18rem;
+	}
+
+	.consultant>span input {
+    top: 0.18rem;
+	}
+}

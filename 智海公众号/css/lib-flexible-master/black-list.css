@@ -1,0 +1,94 @@
+body {
+    background-color: #f6f6f6;
+}
+
+.tab-header {
+    background-color: #fff;
+    height: 1.275rem;
+}
+
+.tab-header .active span {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1.175rem;
+    display: inline-block;
+    border-bottom: 0.05rem solid red;
+    width: 2.35rem;
+    margin-bottom: -0.05rem;
+}
+
+.tab-header>li {
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 100%;
+    line-height: 1.275rem;
+    font-size: 0.325rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+}
+
+.tab-container {
+    padding: 0.225rem 0.375rem 0;
+}
+
+.tab-container li {
+    background-color: #fff;
+    border-radius: 0.125rem;
+}
+
+.tab-container li div {
+    padding-left: 2.55rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.tab-container li div span {
+    font-family: Arial;
+}
+
+.tab-container li h3 {
+    font-size: 0.375rem;
+    color: #333333;
+    line-height: 0.375rem;
+    margin-bottom: 0.35rem;
+}
+
+.tab-container li p {
+    font-size: 0.325rem;
+    color: #858585;
+    line-height: 0.325rem;
+    margin-bottom: 0.5rem;
+}
+
+.tab-container img {
+    width: 2.025rem;
+    height: 2.025rem;
+    float: left;
+    margin-left: 0.275rem;
+    margin-top: 0.375rem;
+    margin-bottom: 0.325rem;
+}
+
+.tab-container>li {
+    display: none;
+}
+
+.tab-container .active {
+    display: block;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .tab-header .active span {
+        border-width: 2px;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3) {
+    .tab-header .active span {
+        border-width: 2px;
+    }
+}

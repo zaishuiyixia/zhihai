@@ -1,0 +1,202 @@
+.login-head {
+    text-align: center;
+    /*margin-bottom: 1.8rem;*/
+    padding-top: 0.45rem;
+    padding-bottom: 1.8rem;
+    background-image: url('../image/login-background.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.login-head img {
+    width: 0.45rem;
+    height: 0.425rem;
+    margin-left: 0.8rem;
+}
+
+.login-head span {
+    color: #e70012;
+    text-align: center;
+    font-size: 0.55rem;
+    font-weight: bold;
+}
+
+.test-container {
+    margin: 0 0.75rem;
+    margin-bottom: 1.1rem;
+}
+
+.tel-test {
+    position: relative;
+    vertical-align: middle;
+    height: 1.325rem;
+}
+
+.number {
+    display: inline-block;
+    height: 0.625rem;
+    padding-right: 0.25rem;
+    border-right: 0.025rem solid #f2f2f2;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.3125rem;
+}
+
+.triangle {
+    display: inline-block;
+    width: 0.225rem;
+    height: 0.225rem;
+    margin-top: -0.925rem;
+    top:50%;
+}
+
+.number span {
+    font-size: 0.375rem;
+    display: inline-block;
+}
+
+.tel-test input {
+    padding-left: 1.5rem;
+    width: 100%;
+    display: inline-block;
+    height: 1.325rem;
+    border-bottom: 0.025rem solid #f2f2f2;
+}
+
+
+.tel-test input::-webkit-input-placeholder {  /* WebKit browsers */
+    font-size: 18px;
+}
+.tel-test input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size: 18px;
+}
+.tel-test input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size: 18px;
+}
+.tel-test input::-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-size: 18px;
+}
+
+
+.test-message {
+    position: relative;
+    margin-top: 0.375rem;
+}
+
+.test-message input::-webkit-input-placeholder {  /* WebKit browsers */
+    font-size: 16px;
+}
+.test-message input:-moz-placeholder { /* Mozilla Firefox 4 to 16 */
+    font-size: 16px;
+}
+.test-message input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size: 16px;
+}
+.test-message input::-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-size: 16px;
+}
+
+.test-message span {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -0.285rem;
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.test-message input {
+    width: 100%;
+    padding-left: 0;
+    height: 1.45rem;
+    border-bottom: 0.025rem solid #f2f2f2;
+}
+
+.btn-container {
+    margin: 0 0.375rem;
+    margin-bottom: 0.4rem;
+}
+
+.submit-btn {
+    display: block;
+    padding: 0.425rem 0;
+    width: 100%;
+    border: none;
+    background: #e70012;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.05rem;
+
+}
+
+
+.protocol {
+    text-align: center;
+    margin-bottom: 2.875rem;
+}
+
+.protocol span{
+    font-size: 12px;
+    display: block;
+    color: #cfcfcf;
+    line-height: 0.5rem;
+}
+
+.another-choose {
+    margin-bottom: 0.475rem;
+}
+
+.another-choose h3 {
+    text-align: center;
+    color: #bfbfbf;
+    font-size: 17px;
+}
+
+.another-choose h3:before {
+    vertical-align: middle;
+    border-top: 0.025rem solid #bfbfbf;
+    width: 2.175rem;
+    display: inline-block;
+    content: "";
+}
+
+.another-choose h3:after {
+    vertical-align: middle;
+    border-top: 0.025rem solid #bfbfbf;
+    width: 2.175rem;
+    display: inline-block;
+    content: "";
+}
+
+.social-login{
+    color: #bfbfbf;
+    height: 1.95rem;
+    margin: 0 1.775rem;
+    margin-bottom: 39px;
+}
+
+.social-login img {
+    display: inline-block;
+    width: 1.325rem;
+    height: 1.325rem;
+    border-radius: 50%;
+}
+
+.social-login li p {
+    text-align: center;
+    margin-top: 0.325rem;
+    font-size: 15px;
+}
+
+.social-login li:first-child {
+    float: left;
+    text-align: center;
+}
+
+.social-login li:last-child {
+    float: right;
+    text-align: center;
+}
+
+

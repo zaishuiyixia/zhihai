@@ -1,0 +1,145 @@
+.header {
+	position: relative;
+	height: 3.925rem;
+	background-image: url(../image/my-background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.header img.portrait {
+    position: absolute;
+    width: 1.85rem;
+    height: 1.85rem;
+    margin-top: 0.925rem;
+    left: 50%;
+    margin-left: -0.925rem;
+}
+
+.header .back-img {
+    width: 0.375rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.3rem;
+    right: 0.4rem;
+}
+
+.header p {
+    color: #fff;
+    font-size: 0.475rem;
+    padding-top: 2.825rem;
+    text-align: center;
+}
+
+.my-activities {
+	width: 100%;
+	position: relative;
+	box-sizing: border-box;
+	padding: 0.425rem  0.375rem 0.5rem;
+	border-bottom: 5px solid #f6f6f6;
+}
+
+.my-activities .calendar {
+	display: inline-block;
+	width: 0.375rem;
+	height: 0.375rem;
+	float: left;
+}
+
+.my-activities p {
+	padding-left: 0.7rem;
+	font-size: 0.375rem;
+	line-height: 0.375rem;
+	color: #333333;
+}
+
+.my-activities .back-btn {
+    width: 0.225rem;
+    height: 0.4rem;
+    position: absolute;
+    right: 0.4rem;
+    top: 50%;
+    margin-top: -0.1875rem;
+}
+
+.container {
+	margin-left: 0.375rem;
+}
+
+.group,.release,.credit,.collection,.report {
+	display: inline-block;
+	float: left;
+}
+
+.group {
+	width: 0.4rem;
+	height: 0.35rem;
+}
+
+.release {
+	width: 0.4rem;
+	height: 0.4rem;
+}
+
+.credit {
+	width: 0.425rem;
+	height: 0.35rem;
+}
+
+.collection {
+	width: 0.45rem;
+	height: 0.425rem;
+}
+
+.report {
+	width: 0.45rem;
+	height: 0.4rem;
+}
+
+
+.container .activities-box {
+	position: relative;
+}
+
+.container .activities-box p {
+	padding-left: 0.7rem;
+	font-size: 0.375rem;
+	line-height: 0.375rem;
+	color: #333333;
+}
+
+.container .activities-box .back-btn {
+	width: 0.225rem;
+    height: 0.4rem;
+    position: absolute;
+    right: 0.4rem;
+    top: 50%;
+    margin-top: -0.1875rem;
+}
+
+.activities-box {
+	padding: 0.425rem 0 0.5rem;
+	width: 100%;
+	border-bottom: 0.025rem solid #dcdcdc;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+	.activities-box {
+	    border-width: 1px;
+	}
+
+	.my-activities {
+		border-width: 5px;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: e) {
+	.activities-box {
+	    border-width: 1px;
+	}
+
+	.my-activities {
+		border-width: 5px;
+	}
+}
+
